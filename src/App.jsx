@@ -3,6 +3,7 @@ import { Menu } from "./components/Menu";
 import { HomePage } from "./page/HomePage";
 import { TodoList } from "./page/TodoList";
 import { AboutUs } from "./page/AboutUs";
+import { TaskDetail } from "./page/TaskDetail";
 
 export function App() {
   return (
