@@ -13,6 +13,7 @@ export function App() {
         <Route path="/" exact element={<HomePage />} />
         <Route path="/todo-list" element={<TodoList />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/task/:taskId" element={<TaskDetail />} />
       </Routes>
     </Router>
   );
