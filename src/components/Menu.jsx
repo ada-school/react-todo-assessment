@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Menu() {
+export function Menu() {
   return (
     <div>
       <h1>Todo List App</h1>
@@ -20,5 +20,3 @@ function Menu() {
     </div>
   );
 }
-
-export default Menu;
